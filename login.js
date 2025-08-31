@@ -6,7 +6,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   const errorMsg = document.getElementById("error-msg");
 
   // Dummy credentials
-  if (username === "" && password === "12345") {
+  if (username === "planner" && password === "12345") {
     localStorage.setItem("loggedIn", "true");
     window.location.href = "index.html";
   } else {
@@ -14,4 +14,5 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   }
 
 });
+
 
