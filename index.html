@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="todo-container">
+    <h2>📋 Task Planner</h2>
+
+    <input type="text" id="taskTitle" placeholder="Task Title ✏️" />
+    <textarea id="taskDesc" placeholder="Task Description 🗒️"></textarea>
+    <input type="date" id="startDate" title="Start Date" />
+    <input type="date" id="endDate" title="End Date" />
+    <button onclick="addTask()">Add Task ➕</button>
+
+    <ul id="taskList"></ul>
+    <button onclick="logout()">🚪 Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
