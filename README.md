@@ -15,15 +15,8 @@ A playful, card-style to-do planner built with HTML, CSS, and JavaScript. Design
 - HTML5
 - CSS3 (Flexbox, transitions, gradients)
 - JavaScript (DOM manipulation, localStorage)
-- Optional: Node.js + Express.js (for login/auth flow)
 
 ## 📦 Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/your-repo-name.git
-
-# Open index.html in your browser
 
 🌐 Live Demo
 Check out the live version here: https://tamil-0511-yogi.github.io/task_planner_login_web/
